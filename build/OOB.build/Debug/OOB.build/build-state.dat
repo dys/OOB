@@ -1,0 +1,224 @@
+TOOB
+v7
+r0
+t328038116.218189
+cCheck dependencies
+cProcessPCH /var/folders/zV/zVQyUUvjH0GAT6x3AHBbQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/OOB_Prefix-hhfsrxxkitdhibcriurvkuyhzbxd/OOB_Prefix.pch.pth OOB_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/OOB.o /Users/dys4ik/Documents/Projects/Programming/OOB/OOB.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/DYSGroup.o /Users/dys4ik/Documents/Projects/Programming/OOB/DYSGroup.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/DYSUnit.o /Users/dys4ik/Documents/Projects/Programming/OOB/DYSUnit.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug/OOB normal x86_64
+
+N/Developer (from old Mac)/SDKs/MacOSX10.6.sdk
+c000000004C5342BA00000000000000EE
+t1280524986
+s238
+
+N/Developer (from old Mac)/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C46BD4600000000000013E6
+t1279704390
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BC1384E0000000000B37440
+t1270954062
+s11760704
+
+N/Users/dys4ik/Documents/Projects/Programming/OOB/DYSGroup.h
+c000000004DDC46F900000000000000A0
+t1306281721
+s160
+i"DYSNode.h"
+
+N/Users/dys4ik/Documents/Projects/Programming/OOB/DYSGroup.m
+c000000004DDD3F630000000000000503
+t1306345315
+s1283
+i"DYSGroup.h"
+
+N/Users/dys4ik/Documents/Projects/Programming/OOB/DYSNode.h
+c000000004DDD39F40000000000000135
+t1306343924
+s309
+i<Foundation/Foundation.h>
+
+N/Users/dys4ik/Documents/Projects/Programming/OOB/DYSUnit.h
+c000000004DDC2AB40000000000000085
+t1306274484
+s133
+i"DYSNode.h"
+
+N/Users/dys4ik/Documents/Projects/Programming/OOB/DYSUnit.m
+c000000004DDC74300000000000000114
+t1306293296
+s276
+i"DYSUnit.h"
+
+N/Users/dys4ik/Documents/Projects/Programming/OOB/OOB.m
+c000000004DDD3DD30000000000000272
+t1306344915
+s626
+i<Foundation/Foundation.h>
+i"DYSUnit.h"
+i"DYSGroup.h"
+
+N/Users/dys4ik/Documents/Projects/Programming/OOB/OOB_Prefix.pch
+c000000004DDC41B20000000000000094
+t1306280370
+s148
+i<Foundation/Foundation.h>
+
+N/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug/OOB
+t1306345316
+s17224
+
+N/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/DYSGroup.o
+t1306345316
+s17272
+
+N/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/DYSUnit.o
+t1306344089
+s8720
+
+N/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/OOB.LinkFileList
+c000000004DDC42590000000000000150
+t1306280537
+s336
+
+N/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/OOB.o
+t1306344916
+s5428
+
+N/var/folders/zV/zVQyUUvjH0GAT6x3AHBbQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/OOB_Prefix-aeitbulfodwrowaebqhhxoqdjpqu/OOB_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/zV/zVQyUUvjH0GAT6x3AHBbQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/OOB_Prefix-dghupdwigbieffgikjjaowabrogj/OOB_Prefix.pch.gch
+t1306292861
+s41413392
+
+N/var/folders/zV/zVQyUUvjH0GAT6x3AHBbQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/OOB_Prefix-hhfsrxxkitdhibcriurvkuyhzbxd/OOB_Prefix.pch.pth
+t1306343532
+s6401704
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies328038116#328038116#0(0"0(0#1#0"8621209216#0"0#
+
+CCompileC build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/DYSGroup.o /Users/dys4ik/Documents/Projects/Programming/OOB/DYSGroup.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s328023209.544597
+e328023209.848154
+r1
+xCompileC
+xbuild/OOB.build/Debug/OOB.build/Objects-normal/x86_64/DYSGroup.o
+x/Users/dys4ik/Documents/Projects/Programming/OOB/DYSGroup.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/dys4ik/Documents/Projects/Programming/OOB/DYSGroup.m328023209#328023209#0(0"0(0#0#59"/Users/dys4ik/Documents/Projects/Programming/OOB/DYSGroup.m8608721792#1523"    cd /Users/dys4ik/Documents/Projects/Programming/OOB    setenv LANG en_US.US-ASCII    "/Developer (from old Mac)/usr/bin/gcc-4.2" -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wshadow -isysroot "/Developer (from old Mac)/SDKs/MacOSX10.6.sdk" -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-generated-files.hmap -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-own-target-headers.hmap -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-all-target-headers.hmap -iquote /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-project-headers.hmap -F/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug/include -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/DerivedSources/x86_64 -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/DerivedSources -include /var/folders/zV/zVQyUUvjH0GAT6x3AHBbQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/OOB_Prefix-dghupdwigbieffgikjjaowabrogj/OOB_Prefix.pch -c /Users/dys4ik/Documents/Projects/Programming/OOB/DYSGroup.m -o /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/DYSGroup.o0#
+
+CCompileC build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/DYSGroup.o /Users/dys4ik/Documents/Projects/Programming/OOB/DYSGroup.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s328038116.141627
+e328038116.196773
+r1
+xCompileC
+xbuild/OOB.build/Debug/OOB.build/Objects-normal/x86_64/DYSGroup.o
+x/Users/dys4ik/Documents/Projects/Programming/OOB/DYSGroup.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@67"Compile /Users/dys4ik/Documents/Projects/Programming/OOB/DYSGroup.m328038116#328038116#0(0"0(0#0#59"/Users/dys4ik/Documents/Projects/Programming/OOB/DYSGroup.m8619508768#1559"    cd /Users/dys4ik/Documents/Projects/Programming/OOB    setenv LANG en_US.US-ASCII    "/Developer (from old Mac)/usr/bin/clang" -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wshadow -isysroot "/Developer (from old Mac)/SDKs/MacOSX10.6.sdk" -fasm-blocks -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-generated-files.hmap -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-own-target-headers.hmap -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-all-target-headers.hmap -iquote /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-project-headers.hmap -F/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug/include -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/DerivedSources/x86_64 -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/DerivedSources -include /var/folders/zV/zVQyUUvjH0GAT6x3AHBbQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/OOB_Prefix-hhfsrxxkitdhibcriurvkuyhzbxd/OOB_Prefix.pch -c /Users/dys4ik/Documents/Projects/Programming/OOB/DYSGroup.m -o /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/DYSGroup.o0#
+
+CCompileC build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/DYSUnit.o /Users/dys4ik/Documents/Projects/Programming/OOB/DYSUnit.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s328022564.281907
+e328022564.401724
+r1
+xCompileC
+xbuild/OOB.build/Debug/OOB.build/Objects-normal/x86_64/DYSUnit.o
+x/Users/dys4ik/Documents/Projects/Programming/OOB/DYSUnit.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/dys4ik/Documents/Projects/Programming/OOB/DYSUnit.m328022564#328022564#0(0"0(0#0#58"/Users/dys4ik/Documents/Projects/Programming/OOB/DYSUnit.m8620848256#1521"    cd /Users/dys4ik/Documents/Projects/Programming/OOB    setenv LANG en_US.US-ASCII    "/Developer (from old Mac)/usr/bin/gcc-4.2" -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wshadow -isysroot "/Developer (from old Mac)/SDKs/MacOSX10.6.sdk" -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-generated-files.hmap -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-own-target-headers.hmap -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-all-target-headers.hmap -iquote /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-project-headers.hmap -F/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug/include -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/DerivedSources/x86_64 -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/DerivedSources -include /var/folders/zV/zVQyUUvjH0GAT6x3AHBbQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/OOB_Prefix-dghupdwigbieffgikjjaowabrogj/OOB_Prefix.pch -c /Users/dys4ik/Documents/Projects/Programming/OOB/DYSUnit.m -o /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/DYSUnit.o0#
+
+CCompileC build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/DYSUnit.o /Users/dys4ik/Documents/Projects/Programming/OOB/DYSUnit.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s328036889.395995
+e328036889.433358
+r1
+xCompileC
+xbuild/OOB.build/Debug/OOB.build/Objects-normal/x86_64/DYSUnit.o
+x/Users/dys4ik/Documents/Projects/Programming/OOB/DYSUnit.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@66"Compile /Users/dys4ik/Documents/Projects/Programming/OOB/DYSUnit.m328036889#328036889#0(0"0(0#0#58"/Users/dys4ik/Documents/Projects/Programming/OOB/DYSUnit.m8622251200#1557"    cd /Users/dys4ik/Documents/Projects/Programming/OOB    setenv LANG en_US.US-ASCII    "/Developer (from old Mac)/usr/bin/clang" -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wshadow -isysroot "/Developer (from old Mac)/SDKs/MacOSX10.6.sdk" -fasm-blocks -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-generated-files.hmap -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-own-target-headers.hmap -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-all-target-headers.hmap -iquote /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-project-headers.hmap -F/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug/include -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/DerivedSources/x86_64 -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/DerivedSources -include /var/folders/zV/zVQyUUvjH0GAT6x3AHBbQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/OOB_Prefix-hhfsrxxkitdhibcriurvkuyhzbxd/OOB_Prefix.pch -c /Users/dys4ik/Documents/Projects/Programming/OOB/DYSUnit.m -o /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/DYSUnit.o0#
+
+CCompileC build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/OOB.o /Users/dys4ik/Documents/Projects/Programming/OOB/OOB.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s328022838.038376
+e328022838.215230
+r1
+xCompileC
+xbuild/OOB.build/Debug/OOB.build/Objects-normal/x86_64/OOB.o
+x/Users/dys4ik/Documents/Projects/Programming/OOB/OOB.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/dys4ik/Documents/Projects/Programming/OOB/OOB.m328022838#328022838#0(0"0(0#0#54"/Users/dys4ik/Documents/Projects/Programming/OOB/OOB.m8617870560#1513"    cd /Users/dys4ik/Documents/Projects/Programming/OOB    setenv LANG en_US.US-ASCII    "/Developer (from old Mac)/usr/bin/gcc-4.2" -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wshadow -isysroot "/Developer (from old Mac)/SDKs/MacOSX10.6.sdk" -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-generated-files.hmap -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-own-target-headers.hmap -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-all-target-headers.hmap -iquote /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-project-headers.hmap -F/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug/include -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/DerivedSources/x86_64 -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/DerivedSources -include /var/folders/zV/zVQyUUvjH0GAT6x3AHBbQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/OOB_Prefix-dghupdwigbieffgikjjaowabrogj/OOB_Prefix.pch -c /Users/dys4ik/Documents/Projects/Programming/OOB/OOB.m -o /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/OOB.o0#
+
+CCompileC build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/OOB.o /Users/dys4ik/Documents/Projects/Programming/OOB/OOB.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s328037716.296769
+e328037716.375020
+r1
+xCompileC
+xbuild/OOB.build/Debug/OOB.build/Objects-normal/x86_64/OOB.o
+x/Users/dys4ik/Documents/Projects/Programming/OOB/OOB.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@62"Compile /Users/dys4ik/Documents/Projects/Programming/OOB/OOB.m328037716#328037716#0(0"0(0#0#54"/Users/dys4ik/Documents/Projects/Programming/OOB/OOB.m8618725792#1549"    cd /Users/dys4ik/Documents/Projects/Programming/OOB    setenv LANG en_US.US-ASCII    "/Developer (from old Mac)/usr/bin/clang" -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wshadow -isysroot "/Developer (from old Mac)/SDKs/MacOSX10.6.sdk" -fasm-blocks -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-generated-files.hmap -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-own-target-headers.hmap -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-all-target-headers.hmap -iquote /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-project-headers.hmap -F/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug/include -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/DerivedSources/x86_64 -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/DerivedSources -include /var/folders/zV/zVQyUUvjH0GAT6x3AHBbQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/OOB_Prefix-hhfsrxxkitdhibcriurvkuyhzbxd/OOB_Prefix.pch -c /Users/dys4ik/Documents/Projects/Programming/OOB/OOB.m -o /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/OOB.o0#
+
+CLd /Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug/OOB normal x86_64
+s328038116.196877
+e328038116.218135
+r1
+xLd
+x/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug/OOB
+xnormal
+xx86_64
+lSLF07#2@69"Link /Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug/OOB328038116#328038116#0(0"0(0#0#0"8614113312#586"    cd /Users/dys4ik/Documents/Projects/Programming/OOB    setenv MACOSX_DEPLOYMENT_TARGET 10.6    "/Developer (from old Mac)/usr/bin/clang" -arch x86_64 -isysroot "/Developer (from old Mac)/SDKs/MacOSX10.6.sdk" -L/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug -F/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug -filelist /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/Objects-normal/x86_64/OOB.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug/OOB0#
+
+CProcessPCH /var/folders/zV/zVQyUUvjH0GAT6x3AHBbQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/OOB_Prefix-aeitbulfodwrowaebqhhxoqdjpqu/OOB_Prefix.pch.gch OOB_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/zV/zVQyUUvjH0GAT6x3AHBbQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/OOB_Prefix-dghupdwigbieffgikjjaowabrogj/OOB_Prefix.pch.gch OOB_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s327985657.884828
+e327985662.145743
+r1
+xProcessPCH
+x/var/folders/zV/zVQyUUvjH0GAT6x3AHBbQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/OOB_Prefix-dghupdwigbieffgikjjaowabrogj/OOB_Prefix.pch.gch
+xOOB_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile OOB_Prefix.pch327985657#327985662#0(0"0(0#0#63"/Users/dys4ik/Documents/Projects/Programming/OOB/OOB_Prefix.pch8607303680#1415"    cd /Users/dys4ik/Documents/Projects/Programming/OOB    setenv LANG en_US.US-ASCII    "/Developer (from old Mac)/usr/bin/gcc-4.2" -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wshadow -isysroot "/Developer (from old Mac)/SDKs/MacOSX10.6.sdk" -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-generated-files.hmap -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-own-target-headers.hmap -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-all-target-headers.hmap -iquote /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-project-headers.hmap -F/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug/include -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/DerivedSources/x86_64 -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/DerivedSources -c /Users/dys4ik/Documents/Projects/Programming/OOB/OOB_Prefix.pch -o /var/folders/zV/zVQyUUvjH0GAT6x3AHBbQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/OOB_Prefix-dghupdwigbieffgikjjaowabrogj/OOB_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/zV/zVQyUUvjH0GAT6x3AHBbQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/OOB_Prefix-hhfsrxxkitdhibcriurvkuyhzbxd/OOB_Prefix.pch.pth OOB_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s328036330.347424
+e328036332.625792
+r1
+xProcessPCH
+x/var/folders/zV/zVQyUUvjH0GAT6x3AHBbQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/OOB_Prefix-hhfsrxxkitdhibcriurvkuyhzbxd/OOB_Prefix.pch.pth
+xOOB_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@25"Precompile OOB_Prefix.pch328036330#328036332#0(0"0(0#0#63"/Users/dys4ik/Documents/Projects/Programming/OOB/OOB_Prefix.pch8621605024#1451"    cd /Users/dys4ik/Documents/Projects/Programming/OOB    setenv LANG en_US.US-ASCII    "/Developer (from old Mac)/usr/bin/clang" -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wshadow -isysroot "/Developer (from old Mac)/SDKs/MacOSX10.6.sdk" -fasm-blocks -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-generated-files.hmap -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-own-target-headers.hmap -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-all-target-headers.hmap -iquote /Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/OOB-project-headers.hmap -F/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/Debug/include -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/DerivedSources/x86_64 -I/Users/dys4ik/Documents/Projects/Programming/OOB/build/OOB.build/Debug/OOB.build/DerivedSources -c /Users/dys4ik/Documents/Projects/Programming/OOB/OOB_Prefix.pch -o /var/folders/zV/zVQyUUvjH0GAT6x3AHBbQU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/OOB_Prefix-hhfsrxxkitdhibcriurvkuyhzbxd/OOB_Prefix.pch.pth0#
+
