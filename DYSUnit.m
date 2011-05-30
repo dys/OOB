@@ -17,4 +17,12 @@
   return (self);
 }
 
+-(void)print {
+	NSLog(@"    -> %@", self);
+}
+
+-(NSString *)description {
+	return self.name;
+}
+
 @end

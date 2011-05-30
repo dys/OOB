@@ -23,43 +23,52 @@
 }
 
 -(void)addNode: (id<DYSNode>) node {
-	NSLog(@"action: adding %@ to %@", node.name, self.name);
+	DYSLog(@"action: adding %@ to %@", node.name, self.name);
 	[nodes addObject:node];
 }
 
 -(void)removeNode: (id<DYSNode>) node {
 	if (node != 0) {
-		NSLog(@"action: removing %@ from %@", node.name, self.name);
+		DYSLog(@"action: removing %@ from %@", node.name, self.name);
 		[nodes removeObject:node];
 	}
 }
 
 -(void)removeAllNodes {
-	NSLog(@"action: removing all nodes from %@:", self.name);
+	DYSLog(@"action: removing all nodes from %@", self.name);
 	[nodes removeAllObjects];
 }
 
 -(id<DYSNode>)nodeWithName: (NSString *) _name {
-	NSLog(@"action: searching for %@", _name);
+	DYSLog(@"action: searching for %@", _name);
 	for(id<DYSNode> node in nodes) {
 		if ([node.name isEqualToString:_name]) {
-			NSLog(@"status: found %@", node.name);
+			DYSLog(@"status: found %@", node.name);
 			return node;
 		}
 	}
-	NSLog(@"status: nothing found.");
+	DYSLog(@"status: nothing found.");
 	return 0;
 }
-
--(void)printNodes {
+/*
+-(void)print {
 	if ([nodes count] > 0) {
-		NSLog(@"status: children of %@:", self.name);
+		DYSLog(@"status: children of %@:", self.name);
 		for(id<DYSNode> node in nodes) {
-			NSLog(@"    -> %@", node.name);
+			[node print];
 		}
 	} else {
-		NSLog(@"status: %@ has no children", self.name);
+		DYSLog(@"status: %@ has no children", self.name);
 	}
+}
+*/
+
+-(void)print {
+	NSLog(@"%@", self);
+}
+
+-(NSString *)description {
+	return [NSString stringWithFormat:@"%@ (%@)", self.name, [[nodes valueForKey:@"description"] componentsJoinedByString:@", "]];
 }
 
 @end
