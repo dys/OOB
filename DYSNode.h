@@ -1,4 +1,5 @@
 #import <Foundation/Foundation.h>
+#import "External/RXVisitor/RXVisitor.h"
 
 #ifndef NDEBUG
 #define DYSLog(_s, ...) NSLog(_s, ## __VA_ARGS__)
@@ -6,7 +7,7 @@
 #define DYSLog(_s, ...)
 #endif
 
-@protocol DYSNode <NSObject>
+@protocol DYSNode <NSObject, RXVisitable>
 -(id)initWithName: (NSString *) newName;
 @property (copy) NSString *name;
 

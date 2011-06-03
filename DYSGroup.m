@@ -39,7 +39,7 @@
 	[nodes removeAllObjects];
 }
 
--(id<DYSNode>)nodeWithName: (NSString *) _name {
+-(id<DYSNode>)nodeWithName: (NSString *) _name { // TODO: this doesn't support recursion yet
 	DYSLog(@"action: searching for %@", _name);
 	for(id<DYSNode> node in nodes) {
 		if ([node.name isEqualToString:_name]) {
@@ -50,18 +50,6 @@
 	DYSLog(@"status: nothing found.");
 	return 0;
 }
-/*
--(void)print {
-	if ([nodes count] > 0) {
-		DYSLog(@"status: children of %@:", self.name);
-		for(id<DYSNode> node in nodes) {
-			[node print];
-		}
-	} else {
-		DYSLog(@"status: %@ has no children", self.name);
-	}
-}
-*/
 
 -(void)print {
 	NSLog(@"%@", self);
@@ -69,6 +57,18 @@
 
 -(NSString *)description {
 	return [NSString stringWithFormat:@"%@ (%@)", self.name, [[nodes valueForKey:@"description"] componentsJoinedByString:@", "]];
+}
+
+-(NSString *)nameForObject:(id<RXVisitable>)object {
+	return @"Group";
+}
+
+-(id)acceptVisitor:(id<RXVisitor>)visitor {
+	[visitor visitObject: self];
+	for(id<RXVisitable> node in nodes) {
+		[node acceptVisitor: visitor];
+	}
+	return [visitor leaveObject: self withVisitedChildren: nodes];
 }
 
 @end
