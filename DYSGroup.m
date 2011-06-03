@@ -59,10 +59,6 @@
 	return [NSString stringWithFormat:@"%@ (%@)", self.name, [[nodes valueForKey:@"description"] componentsJoinedByString:@", "]];
 }
 
--(NSString *)nameForObject:(id<RXVisitable>)object {
-	return @"Group";
-}
-
 -(id)acceptVisitor:(id<RXVisitor>)visitor {
 	[visitor visitObject: self];
 	for(id<RXVisitable> node in nodes) {

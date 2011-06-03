@@ -25,10 +25,6 @@
 	return self.name;
 }
 
--(NSString *)nameForObject:(id<RXVisitable>)object {
-	return @"Node";
-}
-
 -(id)acceptVisitor:(id<RXVisitor>)visitor {
 	[visitor visitObject: self];
 	return [visitor leaveObject: self withVisitedChildren: nil];
