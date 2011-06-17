@@ -20,7 +20,7 @@
 	NSLog(@"\n%@", [[object acceptVisitor:self] componentsJoinedByString:@"\n"]);
 }
 
--(id)leaveGroup:(DYSGroup *)group withVisitedChildren:(id)units {
+-(id)leaveGroup:(DYSGroup *)group withVisitedChildren:(NSArray *)units {
 	return [[NSArray arrayWithObject:group.name] arrayByAddingObjectsFromArray:[DYSPrinter addPrefix:[DYSPrinter flattenArray:units]]];
 }
 

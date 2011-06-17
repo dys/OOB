@@ -17,6 +17,16 @@
   return (self);
 }
 
+-(void)encodeWithCoder:(NSCoder *)coder {
+	[coder encodeObject:name forKey:@"DYSName"];
+}
+
+- (id)initWithCoder:(NSCoder *)coder {
+	self = [super init];
+	name = [coder decodeObjectForKey:@"DYSName"];
+	return self;
+}
+
 -(void)print {
 	NSLog(@"    -> %@", self);
 }

@@ -28,10 +28,16 @@ int main (int argc, const char *argv[])
 //	[testGroup removeNode:[testGroup nodeWithName:@"unit 10"]];
 //	[testGroup print];
 //	[testGroup removeAllNodes];
-	[testGroup print];
+//	[testGroup print];
 
 	DYSPrinter *printer = [[DYSPrinter alloc] init];
 	[printer printBasic:testGroup];
-		
+
+	NSString *archivePath = [NSTemporaryDirectory() stringByAppendingPathComponent:@"oob.archive"];
+	[NSKeyedArchiver archiveRootObject:testGroup toFile:archivePath];
+	DYSGroup *testDecodedGroup = [NSKeyedUnarchiver unarchiveObjectWithFile:archivePath];
+
+	[printer printBasic:testDecodedGroup];
+
 	return 0;
 }

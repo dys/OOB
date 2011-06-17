@@ -7,7 +7,7 @@
 #define DYSLog(_s, ...)
 #endif
 
-@protocol DYSNode <NSObject, RXVisitable>
+@protocol DYSNode <NSObject, RXVisitable, NSCoding>
 -(id)initWithName: (NSString *) newName;
 @property (copy) NSString *name;
 

@@ -22,6 +22,18 @@
 	return (self);
 }
 
+-(void)encodeWithCoder:(NSCoder *)coder {
+	[coder encodeObject:name forKey:@"DYSName"];
+	[coder encodeObject:nodes forKey:@"DYSNodes"];
+}
+
+- (id)initWithCoder:(NSCoder *)coder {
+	self = [super init];
+	name = [coder decodeObjectForKey:@"DYSName"];
+	nodes = [coder decodeObjectForKey:@"DYSNodes"];
+	return self;
+}
+
 -(void)addNode: (id<DYSNode>) node {
 	DYSLog(@"action: adding %@ to %@", node.name, self.name);
 	[nodes addObject:node];
