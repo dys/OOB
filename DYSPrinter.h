@@ -4,10 +4,12 @@
 #import "DYSUnit.h"
 
 @interface DYSPrinter : RXVisitor
++(NSArray *)addPrefix:(NSArray *)units;
++(NSArray *)flattenArray:(NSArray *)array;
 -(void)printBasic:(id<RXVisitable>)object;
 -(id)leaveGroup:(id<RXVisitable>)object withVisitedChildren:(id)units;
-//-(id)visitGroup:(id<RXVisitable>)object;
 -(id)leaveUnit:(id<RXVisitable>)object;
+//-(id)visitGroup:(id<RXVisitable>)object;
 //-(id)visitUnit:(id<RXVisitable>)object;
 
 @end

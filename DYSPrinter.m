@@ -1,12 +1,27 @@
 #import "DYSPrinter.h"
 
 @implementation DYSPrinter
++(NSArray *)addPrefix:(NSArray *)units {
+	return [[NSString stringWithFormat:@"\t%@", [units componentsJoinedByString:@"\n\t"]] componentsSeparatedByString:@"\n"];
+}
+
++(NSArray *)flattenArray:(NSArray *)array {
+	NSMutableArray *flattened = [NSMutableArray array];
+	for (id object in array) {
+			if ([object isKindOfClass:[NSArray class]])
+					[flattened addObjectsFromArray:[DYSPrinter flattenArray:object]];
+			else
+					[flattened addObject:object];
+	}
+	return flattened;
+}
+
 -(void)printBasic:(id<RXVisitable>)object {
-	NSLog(@"%@", [object acceptVisitor:self]);
+	NSLog(@"\n%@", [[object acceptVisitor:self] componentsJoinedByString:@"\n"]);
 }
 
 -(id)leaveGroup:(DYSGroup *)group withVisitedChildren:(id)units {
-	return [NSString stringWithFormat: @"%@ (%@)", group.name, [units componentsJoinedByString: @"\t"]];
+	return [[NSArray arrayWithObject:group.name] arrayByAddingObjectsFromArray:[DYSPrinter addPrefix:[DYSPrinter flattenArray:units]]];
 }
 
 -(id)leaveUnit:(DYSUnit *)unit {

@@ -61,10 +61,12 @@
 
 -(id)acceptVisitor:(id<RXVisitor>)visitor {
 	[visitor visitObject: self];
+	NSMutableArray *children = [[NSMutableArray alloc] init];
 	for(id<RXVisitable> node in nodes) {
-		[node acceptVisitor: visitor];
+		id result = [node acceptVisitor: visitor];
+		if(result) [children addObject: result];
 	}
-	return [visitor leaveObject: self withVisitedChildren: nodes];
+	return [visitor leaveObject: self withVisitedChildren: children];
 }
 
 @end
