@@ -6,6 +6,9 @@
 	NSMutableArray *nodes;
 }
 
-+(DYSGroup *)groupWithName: (NSString *)name;
+@property (nonatomic, readonly) NSMutableArray *nodes;
+
++(DYSGroup *)groupWithName:(NSString *)name;
+-(BOOL)isEqualToGroup:(DYSGroup *)group;
 
 @end

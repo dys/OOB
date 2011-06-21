@@ -5,5 +5,6 @@
   NSString *name;
 }
 
-+(DYSUnit *)unitWithName: (NSString *)name;
++(DYSUnit *)unitWithName:(NSString *)name;
+-(BOOL)isEqualToUnit:(DYSUnit *)unit;
 @end

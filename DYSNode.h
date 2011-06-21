@@ -8,15 +8,16 @@
 #endif
 
 @protocol DYSNode <NSObject, RXVisitable, NSCoding>
--(id)initWithName: (NSString *) newName;
+-(id)initWithName:(NSString *)newName;
+-(void)print;
+-(BOOL)isEqual:(id)other;
+
 @property (copy) NSString *name;
 
--(void)print;
-
 @optional
--(void)addNode: (id<DYSNode>) node;
--(void)removeNode: (id<DYSNode>) node;
+-(void)addNode:(id<DYSNode>)node;
+-(void)removeNode:(id<DYSNode>)node;
 -(void)removeAllNodes;
--(id<DYSNode>)nodeWithName: (NSString *) _name;
+-(id<DYSNode>)nodeWithName:(NSString *)_name;
 
 @end

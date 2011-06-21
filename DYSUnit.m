@@ -40,4 +40,12 @@
 	return [visitor leaveObject: self withVisitedChildren: nil];
 }
 
+-(BOOL)isEqual:(id)other {
+	return [other isKindOfClass:[DYSUnit class]] && [self isEqualToUnit:other];
+}
+
+-(BOOL)isEqualToUnit:(DYSUnit *)unit {
+	return [unit.name isEqualToString:self.name];
+}
+
 @end
